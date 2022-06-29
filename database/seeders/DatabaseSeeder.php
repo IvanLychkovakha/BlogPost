@@ -19,11 +19,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+       /* DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
         User::truncate();
         Category::truncate();
-        Post::truncate();
+        Post::truncate();*/
         
         $this->call([
             CategorySeeder::class,
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
             ->create();
                 
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+      //  DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
     }
 }
