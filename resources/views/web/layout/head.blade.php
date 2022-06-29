@@ -8,7 +8,7 @@
     @if(Route::currentRouteName() == 'auth.signin' || Route::currentRouteName() == 'auth.signup')
         <link href="https://getbootstrap.com/docs/4.0/examples/sign-in/signin.css" rel="stylesheet">
     @endif
-    <link rel="stylesheet" href="{{ asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/app.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
