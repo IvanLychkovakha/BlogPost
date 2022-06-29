@@ -1,6 +1,21 @@
 <footer class="py-5 bg-dark">
     <div class="container"><p class="m-0 text-center text-white">Copyright © Your Website 2022</p></div>
 </footer>
+<style>
+body
+{
+    display: block;
+    padding: 0;
+}
+
+.require {
+    color: #666;
+}
+label small {
+    color: #999;
+    font-weight: normal;
+}
+</style>
 <script>
 window.addEventListener('DOMContentLoaded', () => {
     const deletePost = () => {
